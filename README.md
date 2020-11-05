@@ -1,5 +1,4 @@
 # atm
- atm lab
 For Lab3 you will be creating an ATM program.
 
 * Write a program that behaves like an ATM that you can interact with. You should be able to:
@@ -16,7 +15,7 @@ For Lab3 you will be creating an ATM program.
 
     * Change the pin of the bank account
 
-    * Your accounts should persist across sessions.
+    ~~* Your accounts should persist across sessions.~~
 
 * You should take advantage of objects and functions to organize your ATM simulator.
 
