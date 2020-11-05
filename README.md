@@ -14,8 +14,9 @@ For Lab3 you will be creating an ATM program.
     * Get the balance of the bank account
 
     * Change the pin of the bank account
-
-    ~~* Your accounts should persist across sessions.~~
+	
+	* Optionally: 
+	    * Your accounts should persist across sessions.
 
 * You should take advantage of objects and functions to organize your ATM simulator.
 
