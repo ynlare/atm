@@ -9,8 +9,14 @@
     <div>
     <form id="Formu" onsubmit="return myFunction()">
         <div>
-          <label for="space">Password: </label>
-          <input type="text"  id="space" size="30">
+          <p><label for="Name">User name: </label></p>
+
+          <p><input type="text"  id="Name" size="30"></p>
+
+        <p><label for="space">Password: </label></p>
+
+          <p><input type="text"  id="space" size="30"></p>
+
           <span id="spaceError" style="color:red"></span>
         </div>
         <div>
@@ -20,7 +26,7 @@
       <div>
 <p>
 
-    <h1>  WELLCOME TO YOUR BANK</h1>
+    <h1 id="line">  WELLCOME TO YOUR BANK</h1>
 </p>
     
       </div>
@@ -31,9 +37,12 @@ body{
 background-color: rgb(63, 63, 184);
 }
 
-p,h1{ text-align: center; padding-top: 250px; 
-                font-size: 55px; color: green;
+#line {
+  text-align: center;
+  border: 3px solid green;
 }
+
+
 
 </style>
 
@@ -49,17 +58,6 @@ alert("Password Error");
 return true;
 
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
